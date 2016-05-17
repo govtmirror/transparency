@@ -24,8 +24,9 @@ We also see this idea in the very recent discussions about open science, for exa
 
 > "Trust is not a scientific value.  Transparency is a replacement for trust.  The irrelevance of trust is facilitated by having no central authority for truth, and by making evidence and its source available publicly.  In principle, anyone can evaluate the basis of claims, and reproduce the procedures in order to verify the claims." (Center for Open Science: Strategic Plan, page 5)
 
-So, as social and behavioral scientists, we should be 
+So, as social and behavioral scientists working to improve the process of governing, I think we need to be aware of the importance of doubt and uncertainty, and the importance of working within a community that extends far beyond our social networks and that has the potential to offer surprising and important improvements to our work.
 
+This document suggests several corollary principles and example of kinds of behaviors that would satisfy them. Eventually, I hope that version of this document can help guide choices of the growing number of social and behavioral scientists working to improve government at all levels from the local town to the United Nations.
 
 
 # Mission
