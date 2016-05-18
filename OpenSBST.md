@@ -32,62 +32,89 @@ In this document, I suggest that we build a workflow for behavioral and social s
 
 Eventually, I hope that a future version of this document can help guide choices of the growing number of social and behavioral scientists working to improve government at all levels. For now, this is an idiosyncratic draft begging for constructive input.
 
-## Practice Humility
+# Practice Humility
 
+The fact that science requires doubt does not mean that it requires an adversarial relationship among scientists. Rather, it means that scientists must remember that what we learn about theory from one set of observations, or even many studies over time, may not translate directly into any given new circumstance: history and humans are very context dependent and they and their institutions and relationships change over time. If we are humble and embrace self-doubt when giving expert advice, then certain behaviors follow.
+
+### Act ethically
+
+Of course. Do no harm. IRB. Common rule.
 
 ### Articulate more than one approach to any question
 
-Most of the behavioral insights teams are supposed to bring expertise into government. If you are on one of those teams people will say, "As an expert, given your extensive knowledge of a vast field of rigorous study, what should we do to accomplish this here policy goal / improve this practice?" Now, as a scientist comfortable with doubt and ignorance, who understands that "shared understanding" or "scientific consensus" does not mean "truth", if you are working in the government you cannot always answer such questions with "I don't know." What you can do, however, is explain in plain language, what you think the government can learn from past studies, what you think the scientific consensus is, what some options might be given what you have read and considered.
+Most of the behavioral insights teams are supposed to bring expertise into government. If you are on one of those teams people will say, "As an expert, given your extensive knowledge of a vast field of rigorous study, what should we do to accomplish this policy goal / improve this practice?" A scientist comfortable with doubt and ignorance, who understands that "shared understanding" or "scientific consensus" does not mean "truth", working in the government cannot always answer such questions with "I don't know." What one can do, however, is explain in plain language, the scientific consensus or debates, how the government can learn from past studies, and what some options might be given what you have read and considered.
+
+### Recognize the expertise of the bureaucrats
 
 What has the agency been doing already to improve processes or confront problems? Can you imagine small improvements based on what they are already doing? The people in the agency tend to know a lot more than you about how to do their work and often have hit on very good ideas that only require a little help from you to re-articulate or motivate.
 
-### Make sure 
+### Test
 
-## Practice Socialability
+If any question has more than one answer, and, even if the scientific consensus has only one answer (but the bureaucracy is doing something else), then one must test. Testing is probably the most important corollary of humility. And, in fact, a particular kind of testing follows here: a test motivated by doubt has to provide results that are not pre-determined and that must be as independent as possible of those designing and fielding the testing. Imagine for example, that a government agency has been doing things one way for many years, and now, a faction within that agency has invited the behavioral insights team to provide some advice about how to improve something or about how to solve some problem. In this case an impersonal and independent test will not only solve problems of public policy but will help resolve difficulties within the agency.
 
-Working in the open can mean typing memoranda or research designs or data analysis code in public GitHub repositories using plain text.^[GitHub itself is not 100% open source, but it is free for public repositories and so far, is the best tool for working in the open that we've seen. "Work in the open" comes from <https://18f.gsa.gov/2014/07/31/working-in-public-from-day-1/>.] It might also mean publishing results and interpretation of those results on a website, a blog, or in open access scientific journals where citizens outside of academia can learn about the work after it is done.
+#### Plan the test and analyses
 
-Wherever possible we should work in the open. Agency partners, the people they serve, and others around the world, should be able to see our process. What are the virtues of this way of work?
+One way to help make tests serve this purpose is to encourage all stakeholders to approve of a **plan** in advance of the results. It is hard to articulate this benefit of a plan better than Paul Rosenbaum:
 
-### Virtue 1: Enable Citizen Science to increase quality quickly and build trust.
+>Plans enable. In all aspects of life, much can be done with a plan that cannot be done without one.
+
+>A study that follows a public plan is more convincing than a study that emerges ambiguously from a fog of data. A public plan is subject to public scrutiny before the study begins, so criticism that would otherwise surface after the fact arises before the fact, perhaps leading to a better study more resistant to legitimate criticism. If there is a public plan, and if the critic raises no objection to the plan, then criticism that could have been raised to the plan rings hollow when raised for the first time after a particular conclusion is announced. (Rosenbaum 2010, page 327)
+
+Plan for heterogeneity of effects. It might be good practice to plan to report how different types of people might experience the policy intervention differently. In academic science, we might only need a single treatment effect to reflect on our theories. However, if we are hoping to do no harm with new policies, we may want to assess (and plan to assess) whether small groups of people may be harmed by an intervention that appears to be broadly beneficial.
+
+#### Remember the power of randomization
+
+When two alternative policy interventions are assigned to people at random, certain benefits emerge. Randomized tests are very persuasive (especially if the process is transparent) because they help produce what Don Kinder calls "interpretable comparisons" (Kinder and Palfrey) and also because they allow us principled ways to talk about the unobserved (Neyman, Fisher). That is, the group that gets the new idea and the group that continues with the old idea are chosen only by a flipped coin so one cannot claim that they are not comparable. After randomization one can report a difference between groups and feel confident that this difference arises from the intervention and not pre-existing differences between groups. 
+
+Randomization also has a deeper purpose: given a reported difference between groups, one might ask, "Could this result have been different? Perhaps you got, by chance, a weird group of people in the new policy condition and, if we were to do this experiment again, we would not see any difference." In the absence of randomization, it is difficult to answer this question. With randomization, however, one can respond humbly, "Ok. If there were no difference between groups, then we would see experimental results like this, or this, or that. Our own actual results are nothing like those. This suggests to me that we don't have much evidence for the `no effects' argument." How is this response possible? If we randomized the intervention, we know *how* we randomized, this means that we can *repeat* the randomization to simulate situations implied by arguments like 'Even though you showed an effect, I think there are really no effects.'
+
+#### Humility implies the need to test and plan
+
+The key feature for getting folks in government to work with a behavioral insights team and to see that such collaboration is successful is that the scientists commit to testing the ideas on the table. This means that the scientists do not say 'we know best, do it our way' rather they say, 'let's give a set of good ideas a chance to compete in a fair and transparent way, and let's commit to reporting whatever we find (including ideas that we thought were good but that didn't work).' I think this idea of actually figuring out what works rather than having an argument with no data and having eventual policy arise from in essence power rather than learning from observation --- people working in government want to learn because learning helps the public.
+
+
+# Practice Community
+
+Science is a communal practice. So far we have been talking about a single study and the importance of knowing that one does not have all the answers. However, if behavioral insights teams are going to service the public, then they need to be able to improve what we know. The way that science improves what we know is via collaboration across time and space, collaboration that is as unfettered as possible, so that good ideas and energy can be contributed to any given project from unexpected sources. So, how can a behavioral insights team work in such a way as to invite collaboration with others inside and outside of the government across the world (and even with their future selves).^[Some of this idea about collaborating with a future self is in Bowers, 2011.]
+
+## Build Trust
 
 We want to enable citizen science because we have seen how openness
 improves quality quickly within open source projects (cite) and because we
 believe that citizens involved in citizen science come to see government
 as a force for good (even if an often frustrating and slow force for
-good). Citizens have paid us to do this work by making the work accessible to the public we are showing came of their investment.
+good). Citizens have paid us to do this work and so by making the work accessible to the public we are showing what has come of their investment.
 
-### Virtue 2: Open work speeds learning (by others from us and us from others)
+### Report all results
 
-We want to increase the ability of people in government agencies to use
-insights and methods from the behavioral and social sciences to improve their
-policy outcomes. Openness enables others to learn from us: if we make our
-memos, reports, research designs and code public, then others can more easily follow
-our example (and, as we noted above, if we use the right tools and nurture the
-right norms, then others can more easily improve our examples).
+Before starting a project, behavioral insights teams and their collaborators should commit to reporting all of the results laid out in the plan. Once the team has reported null results, then other agencies will know that these people will work in the public interest and are not captured by any particular political party or faction.
 
-### Reduce barriers to learning
+Reporting all results also enhances communication outside of the government. If others can see the results and processes and plans, then (1) they can learn how to conduct their own tests and policy interventions and (2) they can improve the work already done.
 
-Because of our mission to expand the ability of others to do what we do,
-we want to avoid barriers to adoption of our ways or working (or
-barriers to our ability to learn from constructive criticism). This means
-we use open-source, free, multiplatform tools and services whenever
-possible.
+Reporting results can occur in many ways. The team should of course write memos to the sponsoring agency. These memos do not need to be public. However, other reporting must be public. It could occur in annual reports, on blog posts, and may also involve peer reviewed publication. Some behavioral insights teams may want to commit to publishing in open access journals under the idea that barriers should not exist between science done in the public interest and the public.
 
-### Empower Partner Agencies to work in the open.
+## Work in the open
 
-We do not tend to own the data that emerges from our collaborations with
-agencies. So, although we can commit to making our own work open, we
-cannot commit on their behalf. That said, we can make it as easy as
-possible for them to be maximally open and reap the benefits of
-openness. If possible, and ethical, we will share data, including de-identified interviews and user experience research to enable others to go beyond our analyeses. Right now, sharing data with agencies is difficult --- such that our standard practice might involve sending code for them to run on their own machines, or sending a virtual machine image for them to use on their own machines (or even lending a laptop). With other agencies data sharing is easier and we might be able to share simulated versions of the original data (i.e. try to follow best practices in differential privacy as results accumulate)^[<https://en.wikipedia.org/wiki/Differential_privacy>,  <http://www.cs.cmu.edu/afs/cs/academic/class/15859m-s11/www/lectures/lect0420.pdf>] OR we might run our own virtual machine where we can allow people (upon request) to run R code (that we pre-screen).
+Although reporting all results improves trust by agencies and by others who may want to contribute to the efforts of behavioral insights teams, people cannot contribute if the work process itself is not open or they do not know how to do the work itself. Most behavioral insights teams are small, and part of the way that they serve the government and people is by teaching others to translate what we know from the social and behavioral sciences into public policy ideas, and then to subject those ideas to planned testing. To enable others to learn, such teams should make their planning and analyses materials available in such a way that others do not need to pay a lot of money or have a job at a university in order to access the materials and learn from them, adapt them to new purposes, and use them.
 
-### Way 2: 
+Most behavioral insights teams do not tend to own the data that emerges from collaborations with agencies. So, although such teams can commit to making their own work open, they cannot commit to open data in the way that many scientists can do so. That said, the teams can make it as easy as possible for agencies to be maximally open and reap the benefits of openness. If possible, and ethical, teams should share data, including de-identified interviews and user experience research to enable others to go beyond the final analyses. Right now, sharing data with agencies is difficult --- such that standard practices might involve sending code for agencies to run on their own machines, or sending a virtual machine image for them to use on their own machines (or even lending a laptop). Teams might also be able to share simulated versions of the original data (i.e. try to follow best practices in differential privacy as results accumulate)^[<https://en.wikipedia.org/wiki/Differential_privacy>,  <http://www.cs.cmu.edu/afs/cs/academic/class/15859m-s11/www/lectures/lect0420.pdf>]. Or teams might run their own cloud based virtual machine where people can request to run analyses that are pre-screened by the team to protect research subjects and comply with the laws and regulations of their governments.
 
-# How to report results?
+# Tools for Humble, Community Oriented, Experts
+
+These general principles suggest some concrete actions. These actions are listed here as of 2016, but will certainly change over time.
+
+## Action 1: Use plain text
+
+Writing memos, reports, or analyses in formats that are propriety and/or likely to change quickly and/or cost money to read raises barriers to collaboration across both space (with others) and time (with the team itself should it desire to use materials from past studies for the future.)
+
+## Action 2: Use open-source and multi-platform tools
+
+Plain text code written for interpretation by an expensive and single platform computing language may be readable in the future, but will be of little use to those who desire to help or learn from the team. This suggests that teams only use tools like R or python or other open-source analysis languages that are available on free operating systems and across platforms.
 
 
-We might want to include some assessment of the heterogeneity of treatment effects. And/or we might want an assessment about hypotheses about rare and aberrant effects (i.e. if a small number of people might be harmed by the change).
+
+
+
 
 # End Matter
 
@@ -95,5 +122,4 @@ This document builds on the [*commitment of the federal government to
 openness*](https://www.whitehouse.gov/open) and especially on my 
 interpretation of the detailed [*US Open Government National Action Plan
 3.0*](https://www.whitehouse.gov/sites/default/files/microsites/ostp/final_us_open_government_national_action_plan_3_0.pdf)
-as it applies to the SBST mission and work. It is also inspired by the ways and virtues of my colleagues in the GSA at [*18F*](https://18f.gsa.gov/2014/07/31/working-in-public-from-day-1/)
 
