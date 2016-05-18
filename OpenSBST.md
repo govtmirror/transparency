@@ -105,14 +105,19 @@ These general principles suggest some concrete actions. These actions are listed
 
 ## Action 1: Use plain text
 
-Writing memos, reports, or analyses in formats that are propriety and/or likely to change quickly and/or cost money to read raises barriers to collaboration across both space (with others) and time (with the team itself should it desire to use materials from past studies for the future.)
+Writing memos, reports, or analyses in formats that are propriety and/or likely to change quickly and/or cost money to read raises barriers to collaboration across both space (with others) and time (with the team itself should it desire to use materials from past studies for the future.)^[This poses a challenge for groups where the government dictates the tools.] This essay, for example, is written in [markdown](https://daringfireball.net/projects/markdown/).^[Specifically, it uses [pandoc](http://pandoc.org/) flavored markdown.]
 
 ## Action 2: Use open-source and multi-platform tools
 
 Plain text code written for interpretation by an expensive and single platform computing language may be readable in the future, but will be of little use to those who desire to help or learn from the team. This suggests that teams only use tools like R or python or other open-source analysis languages that are available on free operating systems and across platforms.
 
+## Action 2a: Assume others will want to reproduce the work.
 
+The fact that one has written open source code written in plain text does not mean that others can effectively learn from or copy and improve on one's work. This means that all analyses should be written as if someone else, who is not a part of the team's social network, ought to be able to reproduce the analyses of the team (to the extent possible given data sharing limitations). Tools here include [Rmarkdown](http://rmarkdown.rstudio.com/) and processes for tracking dependencies among files like the [make](http://robjhyndman.com/hyndsight/makefiles/) system and [R packages](http://r-pkgs.had.co.nz/).^[Insert versions for python.]
 
+## Action 3: Take advantage of the cloud
+
+My favorite way to work in the open right now is to use [GitHub](http://github.com) because it not only encourages a workflow in which people copy and improve and change others' code, but prevents old files from being clobbered with new files, tracks and threads discussions about topics, and enables online editing and easy website creation for quick sharing of documents and results.
 
 
 
@@ -122,4 +127,6 @@ This document builds on the [*commitment of the federal government to
 openness*](https://www.whitehouse.gov/open) and especially on my 
 interpretation of the detailed [*US Open Government National Action Plan
 3.0*](https://www.whitehouse.gov/sites/default/files/microsites/ostp/final_us_open_government_national_action_plan_3_0.pdf)
+
+This document is currently hosted on github at <http://github/sbstusa/transparency>. Comments welcome. 
 
