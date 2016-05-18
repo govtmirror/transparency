@@ -1,14 +1,16 @@
 ﻿---
-title:  'How we should work?: A DRAFT aspirational standard operating procedure for behavioral insights teams working within governments.'
+title: "How we should work?:   
+A DRAFT aspirational standard operating procedure for behavioral insights teams working within governments."
+date: 18 May 2016
 author:
 - name: Jake Bowers
-  afilliation: University of Illinois at Urbana-Champaign and White House Social and Behavioral Sciences Team
+  affiliation: <jwbowers@illinois.edu>, University of Illinois at Urbana-Champaign and White House Social and Behavioral Sciences Team
 ...
 
 
 # Why this document?
 
-A growing number of governments believe that social and behavioral scientists can help them improve their work. For example, on in September of 2015 President Barak Obama referred to the work of the new White House Social and Behavioral Sciences team when he issued Executive Order 13707 "Using Behavioral Insights To Better Serve the American People" saying:
+A growing number of governments believe that social and behavioral scientists can help them improve their work. For example, in September of 2015 President Barak Obama referred to the work of the new White House Social and Behavioral Sciences team when he issued Executive Order 13707 "Using Behavioral Insights To Better Serve the American People" saying:
 
 > A growing body of evidence demonstrates that behavioral science insights --- research findings from fields such as behavioral economics and psychology about how people make decisions and act on them --- can be used to design government policies to better serve the American people.
 
@@ -16,7 +18,7 @@ A growing number of governments believe that social and behavioral scientists ca
 
 Behavioral insights groups containing people with training in psychology, economics, political science, sociology and public policy have been recently founded at the national level in the UK, Germany, Australia, at the United Nations, and in the city of Washington, DC (and probably other places).
 
-How should scientists working to improve government act? We have a good sense for how scientists should act in general. In general, science helps us solve problems and answer questions via impersonal and asynchronous collaboration: the idea is that each individual scientist is ignorant, but that groups of scientists, working across time, space, language, and technique, will gradually improve what we know. This idea, that no single person ought to have authority can be seen in Richard Feynman's 1955 address to the National Academy of Arts and Sciences:
+**How should scientists working to improve government act?** We have a good sense for how scientists should act in general. Science helps us solve problems and answer questions via impersonal and asynchronous collaboration: the idea is that each individual scientist is ignorant, but that groups of scientists, working across time, space, language, and technique, will gradually improve what we know and how we act in the world. This idea that ignorance is essential for science can be seen in Richard Feynman's 1955 address to the National Academy of Arts and Sciences:
 
 > "I would now like to turn to a third value that science has. It is a little less direct, but not much. The scientist has a lot of experience with ignorance and doubt and uncertainty, and this experience is of very great importance, I think. We have found it of paramount importance that in order to progress we must recognize our ignorance and leave room for doubt. Scientific knowledge is a body of statements of varying degrees of certainty --- some most unsure, some nearly sure, but none absolutely certain.
 
@@ -30,7 +32,7 @@ Many behavioral insights groups work within governments that adhere to the gener
 
 In this document, I suggest that we build a workflow for behavioral and social science within government remembering that science requires doubting and uncertain individuals collaborating across time and space with minimal barriers. I think that this workflow differs from the open science workflow because the purpose of the work within governments is not mainly to advance science but to serve the government and the people.
 
-Eventually, I hope that a future version of this document can help guide choices of the growing number of social and behavioral scientists working to improve government at all levels. For now, this is an idiosyncratic draft begging for constructive input.
+Eventually, I hope that a future version of this document can help guide the choices of the growing number of social and behavioral scientists working to improve government at all levels. For now, this is an idiosyncratic draft begging for constructive input.
 
 # Practice Humility
 
@@ -42,7 +44,7 @@ Of course. Do no harm. IRB. Common rule.
 
 ### Articulate more than one approach to any question
 
-Most of the behavioral insights teams are supposed to bring expertise into government. If you are on one of those teams people will say, "As an expert, given your extensive knowledge of a vast field of rigorous study, what should we do to accomplish this policy goal / improve this practice?" A scientist comfortable with doubt and ignorance, who understands that "shared understanding" or "scientific consensus" does not mean "truth", working in the government cannot always answer such questions with "I don't know." What one can do, however, is explain in plain language, the scientific consensus or debates, how the government can learn from past studies, and what some options might be given what you have read and considered.
+Most of the behavioral insights teams are supposed to bring expertise into government. If you are on one of those teams people will say, "As an expert, given your extensive knowledge of a vast field of rigorous study, what should we do to accomplish this policy goal / improve this practice?" A scientist working in the government yet comfortable with doubt and ignorance, who understands that "shared understanding" or "scientific consensus" does not mean "truth", cannot always answer such questions with "I don't know." What one can do, however, is explain in plain language, the scientific consensus or debates, how the government can learn from past studies, and what some options might be given what you have read and considered.
 
 ### Recognize the expertise of the bureaucrats
 
