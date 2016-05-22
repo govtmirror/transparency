@@ -55,9 +55,9 @@ opts_chunk$set(
 
 ## Behavioral Insights Teams in Government
 
-President Barak Obama USA Executive Order 13707 "Using Behavioral Insights To Better Serve the American People":
 
-> A growing body of evidence demonstrates that behavioral science insights---research findings from fields such as behavioral economics and psychology about how people make decisions and act on them---can be used to design government policies to better serve the American people.
+
+> A growing body of evidence demonstrates that behavioral science insights---research findings from fields such as behavioral economics and psychology about how people make decisions and act on them---can be used to design government policies to better serve the American people. (President Barak Obama's Executive Order 13707 "Using Behavioral Insights To Better Serve the American People")
 
 [The UK Nudge Unit](http://www.behaviouralinsights.co.uk/about-us/)
 
@@ -73,37 +73,54 @@ President Barak Obama USA Executive Order 13707 "Using Behavioral Insights To Be
 
 [New South Wales Intro to Behavioral Insights Teams](https://www.youtube.com/watch?v=pDub6gG1yxw&feature=youtu.be)
 
-## Person oriented government from Science and Design
-
-BI teams translate (and extend) knowledge from (mostly) randomized experiment-based workflows into public policy.
-
 \medskip
+
+\only{<2>}{
+\textbf{\textcolor{blue}{
+BI teams translate (and extend) knowledge from (mostly) randomized experiment-based research into public policy.}
+}}
+
+## Design for person oriented government
 
 UX (user experience) designers interview and observe users of products throughout the cycle of iterative production.
 
-(Quote about how interviews give them "why" where as "demographics" only give "how", literature and methods (even qualitative methods) from behavioral science is not a part of the vocublary).
+\medskip
 
-(Show github for 18F research on a project)
+> Cognitive empathy requires not a face, not preferences and demographics, but the underlying reasoning, reactions, and guiding principles. Without these you cannot develop empathy. And if you cannot develop empathy, you cannot wield it---you cannot walk in someone’s shoes. [Describing Personas by Indi Young](https://medium.com/@indiyoung/describing-personas-af992e3fc527#.vpydktp99)
 
-# A reason for BI: Science in the House.
+> At the beginning of a user experience research project, it’s okay to talk about what the segments look like. The segments are one view of a user profile; personas are another. But they’re based on totally different data. Segments come from self-reported survey data, usually. Personas should be developed after observing users in their own contexts doing their own tasks. [Avoiding Demographics When Recruiting Participants: An Interview with Dana Chisnell](https://articles.uie.com/recruiting_participants/)
 
+## Example: myUSA
+
+[MyUSA](https://github.com/18F/myusa-ux/blob/master/images/front%20page.png)
+
+[UX Transcript](https://github.com/18F/myusa-ux/blob/master/research/usability/sprint22_research-data.md)
+
+[UX report on MyUSA](https://github.com/18F/myusa-ux/blob/master/research/usability/sprint33_small-business-results.md)
+
+
+## Science for person oriented government
+
+\includegraphics[width=.9\textwidth]{ScienceInTheHouse.png}
 
 ## What follows from valuing science? 
-
-(insert shot from slack)
 
 Why not Behavioral Claims Teams?  Why does science produce "insights"? 
 
 \medskip
 
+\only{<2->}{
 Principles of Science
 
 1) No one study produces certain knowledge (there is no certain knowledge). 
 2) No one person produces certain knowledge. Investigators must be comfortable with uncertainty and doubt.
+}
 
 \bigskip
+\only{<3->}{
 
 BTW, these ideas enable frequentist statistical inference: a $p$-value / confidence interval is a $p$-value/confidence interval, no more no less.
+}
 
 ## What follows from a person oriented approach to public policy?
 

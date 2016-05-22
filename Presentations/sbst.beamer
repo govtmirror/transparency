@@ -1,4 +1,29 @@
-\documentclass[11pt,ignorenonframetext,xcolor={svgnames}]{beamer}
+%%\documentclass[11pt,ignorenonframetext,xcolor={svgnames}]{beamer}
+\documentclass[11pt,ignorenonframetext]{beamer}
+
+% Define SBST Colors
+%% Dark Yellow: 102, 83, 30
+%% Dark Orange: 104, 55, 34
+%% Dark Red: 107, 36, 31
+%% Dark Blue: 19, 64, 80
+%% Dark Green: 0, 86, 79
+%% yellow:  R=242 G=196 B=70 F2C446
+%% orange:  R=249 G=131 B=74 F9834A
+%% blue:  R=46 G=154 B=196   2E9AC4
+%% red:  R=250 G=86 B=70 FA5646
+%% green:  R=3 G=202 B=185 03CAB9
+%% grey:  R=153 G=153 B=153 999999
+%% Dark Yellow: 102, 83, 30
+\definecolor{darkyellow}{rgb}{102,83,30}
+\definecolor{darkorange}{rgb}{.41,.22,.13}
+\definecolor{orange}{HTML}{F9834A}
+\definecolor{yellow}{HTML}{F2C446}
+\definecolor{blue}{HTML}{2E9AC4}
+\definecolor{darkblue}{HTML}{134050}
+\definecolor{green}{HTML}{03CAB9}
+\definecolor{grey}{HTML}{999999}
+\definecolor{darkgrey}{HTML}{4d4d4d}
+
 %\setbeameroption{hide notes}
 \usepackage{etex}
 \reserveinserts{28}
@@ -26,30 +51,6 @@
 \progressbaroptions{titlepage=normal,headline=normal,frametitle=normal}
 
 
-% Define SBST Colors
-%% Dark Yellow: 102, 83, 30
-%% Dark Orange: 104, 55, 34
-%% Dark Red: 107, 36, 31
-%% Dark Blue: 19, 64, 80
-%% Dark Green: 0, 86, 79
-%% yellow:  R=242 G=196 B=70 F2C446
-%% orange:  R=249 G=131 B=74 F9834A
-%% blue:  R=46 G=154 B=196   2E9AC4
-%% red:  R=250 G=86 B=70 FA5646
-%% green:  R=3 G=202 B=185 03CAB9
-%% grey:  R=153 G=153 B=153 999999
-%% Dark Yellow: 102, 83, 30
-
-
-\definecolor{darkyellow}{rgb}{102,83,30}
-\definecolor{darkorange}{rgb}{.41,.22,.13}
-\definecolor{orange}{HTML}{F9834A}
-\definecolor{yellow}{HTML}{F2C446}
-\definecolor{blue}{HTML}{2E9AC4}
-\definecolor{darkblue}{HTML}{134050}
-\definecolor{green}{HTML}{03CAB9}
-\definecolor{grey}{HTML}{999999}
-\definecolor{darkgrey}{HTML}{4d4d4d}
 
 \setbeamerfont*{note page}{size=\scriptsize}%%footnotesize}
 \setbeamertemplate{note page}[compress]
@@ -141,6 +142,7 @@ $endif$
       \let\sectionname\relax
   {
     \setbeamercolor{background canvas}{bg=blue}
+    %\setbeamercolor{background canvas}{bg=orange}
     %\setbeamercolor{frametitle}{fg=white,bg=darkblue}
     %\setbeamercolor{normal text}{fg=white,bg=darkblue}
     %\setbeamercolor{structure}{fg=white}
@@ -224,7 +226,7 @@ $endif$
 \node[anchor=south east,yshift=5pt] at (current page.south east) {\includegraphics[height=2cm]{SBSTLogo}};
 \end{tikzpicture}}
 
-\hypersetup{colorlinks=true,linkcolor=orange}
+\hypersetup{colorlinks=true,linkcolor=orange,urlcolor=orange}
 
 \begin{document}
 $if(title)$
