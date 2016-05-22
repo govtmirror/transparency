@@ -40,38 +40,40 @@
 %% grey:  R=153 G=153 B=153 999999
 %% Dark Yellow: 102, 83, 30
 
+
 \definecolor{darkyellow}{rgb}{102,83,30}
+\definecolor{darkorange}{rgb}{.41,.22,.13}
 \definecolor{orange}{HTML}{F9834A}
 \definecolor{yellow}{HTML}{F2C446}
 \definecolor{blue}{HTML}{2E9AC4}
-\definecolor{darkblue}{rgb}{19,64,80}
+\definecolor{darkblue}{HTML}{134050}
 \definecolor{green}{HTML}{03CAB9}
 \definecolor{grey}{HTML}{999999}
-%\definecolor{progressbar@bgblue}{rgb}{0.92, 0.93, 0.95}
+\definecolor{darkgrey}{HTML}{4d4d4d}
 
-%\setbeamerfont*{frametitle}{size=\small,series=\bfseries,bg=white,fg=black}
-%\setbeamerfont*{frametitle}{size=\small,series=\bfseries,bg=white,fg=progressbar@bgblue!90!progressbar@fgblue}
 \setbeamerfont*{note page}{size=\scriptsize}%%footnotesize}
 \setbeamertemplate{note page}[compress]
 \setbeamercovered{transparent}
 \setbeamertemplate{navigation symbols}{}
 \setbeamertemplate{items}[circle]
-\setbeamertemplate{sections/subsections in toc}[circle]
+\setbeamertemplate{sections/subsections in toc}[]
 \setbeamersize{description width=2ex}
-% \setbeamersize{text margin left=1ex,text margin right=1ex}
-\setbeamersize{text margin left=2ex,text margin right=1ex}
+\setbeamersize{text margin left=1ex,text margin right=1ex}
 %%\setbeamersize{ParSkip 1ex plus 1pt minus 1pt}
 %% %% %% \setbeamertemplate{caption}[numbered]
 \setbeamertemplate{caption label separator}{:}
-\setbeamercolor{title}{fg=green}
-\setbeamercolor{author}{fg=grey}
-\setbeamercolor{institute}{fg=grey}
-\setbeamercolor{date}{fg=grey}
+\setbeamercolor{title}{fg=blue}
+\setbeamercolor{author}{fg=orange}
+\setbeamercolor{institute}{fg=darkgrey}
+\setbeamercolor{date}{fg=darkgrey}
 \setbeamerfont{author}{shape=\itshape}
 \setbeamerfont{institute}{shape=\itshape}
 \setbeamercolor{frametitle}{fg=blue}
+\setbeamercolor{structure}{fg=blue}
+\setbeamercolor{description item}{fg=orange,bg=darkgrey}
 \setbeamercolor{caption name}{fg=normal text.fg}
 
+\setbeamerfont*{description item}{series=\bfseries}
 % use upquote if available, for straight quotes in verbatim environments
 \IfFileExists{upquote.sty}{\usepackage{upquote}}{}
 % use microtype if available
@@ -222,6 +224,7 @@ $endif$
 \node[anchor=south east,yshift=5pt] at (current page.south east) {\includegraphics[height=2cm]{SBSTLogo}};
 \end{tikzpicture}}
 
+\hypersetup{colorlinks=true,linkcolor=orange}
 
 \begin{document}
 $if(title)$
@@ -242,11 +245,6 @@ $endfor$
 
 $body$
 
-\begin{frame}[c]
-  \centering
-  \includegraphics[width=.8\textwidth]{SBSTWebsite.png}
-\end{frame}
-
 $if(natbib)$
 $if(biblio-files)$
 $if(biblio-title)$
@@ -266,10 +264,13 @@ $if(biblatex)$
 \begin{frame}[allowframebreaks]{$biblio-title$}
 \printbibliography[heading=none]
 \end{frame}
-
 $endif$
+
 $for(include-after)$
 $include-after$
-
+%%\begin{frame}[c]
+%%  \centering
+%%  \includegraphics[width=.8\textwidth]{SBSTWebsite.png}
+%%\end{frame}
 $endfor$
 \end{document}

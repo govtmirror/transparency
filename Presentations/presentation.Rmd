@@ -25,6 +25,8 @@ output:
 ## To compile this by hand do:
 ## library(rmarkdown)
 ## render("presentation.Rmd")
+## OR 
+## Rscript -e "library(methods);library(knitr); knit('presentation.Rmd',output='presentation.md')"
 ## On my system then: 
 ## pandoc +RTS -K512m -RTS presentation.utf8.md --to beamer --from markdown+autolink_bare_uris+ascii_identifiers+tex_math_single_backslash --output presentation.pdf --template sbst.beamer --table-of-contents --slide-level 2 --highlight-style tango --latex-engine /Library/TeX/texbin/xelatex 
 
@@ -53,66 +55,113 @@ opts_chunk$set(
 
 ## Behavioral Insights Teams in Government
 
-USA Executive Order 13707 "Using Behavioral Insights To Better Serve the American People":
+President Barak Obama USA Executive Order 13707 "Using Behavioral Insights To Better Serve the American People":
 
-> A growing body of evidence demonstrates that behavioral science insights --- research findings from fields such as behavioral economics and psychology about how people make decisions and act on them --- can be used to design government policies to better serve the American people.
+> A growing body of evidence demonstrates that behavioral science insights---research findings from fields such as behavioral economics and psychology about how people make decisions and act on them---can be used to design government policies to better serve the American people.
 
-(The UK Nudge Unit)[http://www.behaviouralinsights.co.uk/about-us/]
-
-\medskip
-
-(The White House SBST)[http://sbst.gov]
+[The UK Nudge Unit](http://www.behaviouralinsights.co.uk/about-us/)
 
 \medskip
 
-(The EU)[https://ec.europa.eu/jrc/en/event/conference/biap-2016#country-overviews]
+[The White House SBST](http://sbst.gov)
 
 \medskip
 
-(A Nice 3 minute video)[https://www.youtube.com/watch?v=pDub6gG1yxw&feature=youtu.be]
+[The EU](https://ec.europa.eu/jrc/en/event/conference/biap-2016#country-overviews)
 
 \medskip
 
+[New South Wales Intro to Behavioral Insights Teams](https://www.youtube.com/watch?v=pDub6gG1yxw&feature=youtu.be)
 
+## Person oriented government from Science and Design
 
-
-## General Strategies to Enhance Confidence and Reduce Bugs
-<!-- HTML presentations use a different color choice method  for example <span style="color:orange">Work together</span> --->
-
-
-1) \textcolor{orange}{Work together:} 
-	- If you and your colleagues are going to have to use each others' code, you may start writing code as if others were going to read it.
-	- A second pair of eyes spots errors.
-
-2) \textcolor{orange}{Test assumptions:} Can we get the program to fail when it does something wrong?
-
-3) \textcolor{orange}{Track dependencies:} What file depends on what other file? Can we go from raw data to results in one command? Where did this figure come from?
-	- Share files instead of copying files.
-	- Think in Batch mode (even if you develop in interactive mode)
-	- Plan for use of code on a fresh computer/empty directory.
-  
-4) Other ideas for after the presentation? 
-
-# Track dependencies: Know how outputs relate to inputs
-
-## Data Sharing Idea 2: Data Online
-
-Other data can be read directly from a website:
-
-## Other Data Sharing Ideas
-
-Small Text Files (.txt,.csv) can live on Github (currently this is all public)
+BI teams translate (and extend) knowledge from (mostly) randomized experiment-based workflows into public policy.
 
 \medskip
 
-Eventually we will have some shared data space on an Amazon EC2 instance.
+UX (user experience) designers interview and observe users of products throughout the cycle of iterative production.
 
-## Think in Batch Mode
+(Quote about how interviews give them "why" where as "demographics" only give "how", literature and methods (even qualitative methods) from behavioral science is not a part of the vocublary).
 
-\textcolor{orange}{Ideal:} Go from raw data to numbers, tables, figures in one command starting from a clean slate.
+(Show github for 18F research on a project)
 
-For example, at the command line `R --vanilla --file=masterfile.R` does the whole analysis.
+# A reason for BI: Science in the House.
 
-# Conversation
 
+## What follows from valuing science? 
+
+(insert shot from slack)
+
+Why not Behavioral Claims Teams?  Why does science produce "insights"? 
+
+\medskip
+
+Principles of Science
+
+1) No one study produces certain knowledge (there is no certain knowledge). 
+2) No one person produces certain knowledge. Investigators must be comfortable with uncertainty and doubt.
+
+\bigskip
+
+BTW, these ideas enable frequentist statistical inference: a $p$-value / confidence interval is a $p$-value/confidence interval, no more no less.
+
+## What follows from a person oriented approach to public policy?
+
+Stuff
+
+# Concrete Actions for 2016
+
+## Action 1: Use plain text
+
+Writing memos, reports, or analyses in formats that are propriety and/or likely to change quickly and/or cost money to read raises barriers to collaboration across both space (with others) and time (with the team itself should it desire to use materials from past studies for the future.)^[This poses a challenge for groups where the government dictates the tools.] This essay, for example, is written in [markdown](https://daringfireball.net/projects/markdown/).^[Specifically, it uses [pandoc](http://pandoc.org/) flavored markdown.]
+
+## Action 2: Use open-source and multi-platform tools
+
+Plain text code written for interpretation by an expensive and single platform computing language may be readable in the future, but will be of little use to those who desire to help or learn from the team. This suggests that teams only use tools like R or python or other open-source analysis and/or markup languages that are available on free operating systems and across platforms.
+
+## Action 2a: Assume others will want to reproduce the work.
+
+The fact that one has written open source code written in plain text does not mean that others can effectively learn from or copy and improve on one's work. This means that all analyses should be written as if someone else, who is not a part of the team's social network, ought to be able to reproduce the analyses of the team (to the extent possible given data sharing limitations). Tools here include [Rmarkdown](http://rmarkdown.rstudio.com/) and processes for tracking dependencies among files like the [make](http://robjhyndman.com/hyndsight/makefiles/) system and [R packages](http://r-pkgs.had.co.nz/).^[Insert versions for python.]
+
+## Action 3: Work in the Open Take advantage of the cloud
+
+My favorite way to work in the open right now is to use [GitHub](http://github.com) because it not only encourages a workflow in which people copy and improve and change others' code, but prevents old files from being clobbered with new files, tracks and threads discussions about topics, and enables online editing and easy website creation for quick sharing of documents and results.
+
+
+
+# End Matter
+
+## Sources and Inspirations
+
+This document builds on the [*commitment of the federal government to
+openness*](https://www.whitehouse.gov/open) and especially on my 
+interpretation of the detailed [*US Open Government National Action Plan
+3.0*](https://www.whitehouse.gov/sites/default/files/microsites/ostp/final_us_open_government_national_action_plan_3_0.pdf)
+
+\bigskip
+
+The injunction to "work in the open" (and internally to "share not send") comes from [*18F*](https://18f.gsa.gov/2014/07/31/working-in-public-from-day-1/)
+
+
+\bigskip
+
+This document is currently hosted on github at <http://github/sbstusa/transparency>. Comments welcome. 
+
+
+## More inspiration from 18F
+
+[18F Design Principles](https://github.com/18F/myusa-ux/blob/master/research/memos/design-principles.md)
+
+[[18F Design Principles Definition](https://pages.18f.gov/design-principles-guide/define/)
+
+[18F Design and Production Process](https://pages.18f.gov/lean-product-design/)
+
+
+## More Inspiration: Statements of Principles
+
+[EGAP Design Principles](http://egap.org/egap-statement-of-principles) 
+
+[Australia Government Design Principles](http://www.designprinciplesftw.com/collections/australia-designgov-principles)
+
+[Code for America Design Principles](http://www.designprinciplesftw.com/collections/principles-for-21st-century-government)
 
