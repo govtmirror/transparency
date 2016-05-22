@@ -1,0 +1,118 @@
+---
+title: |
+  | What should we do and why?
+  | Work principles for behavioral insights teams.
+author: Jake Bowers
+institute: | 
+     | Political Science and Statistics, University of Illinois @ Urbana-Champaign
+     | Fellow, White House Social and Behavioral Sciences Team
+date: '`r format(Sys.Date(), "%B %d, %Y")`'
+output:
+  beamer_presentation:
+    keep_tex: yes
+    latex_engine: xelatex
+    slide_level: 2
+    template: sbst.beamer
+    toc: yes
+  ioslides_presentation:
+    css: sbstpresentation.css
+    logo: ../graphics/SBSTLightBulb.png
+    smaller: yes
+---
+
+
+```{r setup, include=FALSE, echo=FALSE, cache=FALSE}
+## To compile this by hand do:
+## library(rmarkdown)
+## render("presentation.Rmd")
+## On my system then: 
+## pandoc +RTS -K512m -RTS presentation.utf8.md --to beamer --from markdown+autolink_bare_uris+ascii_identifiers+tex_math_single_backslash --output presentation.pdf --template sbst.beamer --table-of-contents --slide-level 2 --highlight-style tango --latex-engine /Library/TeX/texbin/xelatex 
+
+## the 'toc: yes' line above tricks pandoc into running latex twice so that we can see the nice logos
+
+# Some customization.  You can alter or delete as desired (if you know what you are doing).
+# knitr settings to control how R chunks work.
+
+require(knitr)
+opts_chunk$set(
+  size = "scriptsize",    # slightly smaller font for code
+  echo = TRUE,
+  results = 'markup',
+  strip.white = TRUE,
+  cache = FALSE,
+  highlight = TRUE,
+  width.cutoff = 60,
+  out.width = '.9\\textwidth',
+  message = FALSE,
+  comment = NA,
+  tidy = TRUE,     # display code as typed
+  tidy.opts = list(blank = FALSE, width.cutoff = 60))
+```
+
+# Introducing Behavioral Insights Teams
+
+## Behavioral Insights Teams in Government
+
+USA Executive Order 13707 "Using Behavioral Insights To Better Serve the American People":
+
+> A growing body of evidence demonstrates that behavioral science insights --- research findings from fields such as behavioral economics and psychology about how people make decisions and act on them --- can be used to design government policies to better serve the American people.
+
+(The UK Nudge Unit)[http://www.behaviouralinsights.co.uk/about-us/]
+
+\medskip
+
+(The White House SBST)[http://sbst.gov]
+
+\medskip
+
+(The EU)[https://ec.europa.eu/jrc/en/event/conference/biap-2016#country-overviews]
+
+\medskip
+
+(A Nice 3 minute video)[https://www.youtube.com/watch?v=pDub6gG1yxw&feature=youtu.be]
+
+\medskip
+
+
+
+
+## General Strategies to Enhance Confidence and Reduce Bugs
+<!-- HTML presentations use a different color choice method  for example <span style="color:orange">Work together</span> --->
+
+
+1) \textcolor{orange}{Work together:} 
+	- If you and your colleagues are going to have to use each others' code, you may start writing code as if others were going to read it.
+	- A second pair of eyes spots errors.
+
+2) \textcolor{orange}{Test assumptions:} Can we get the program to fail when it does something wrong?
+
+3) \textcolor{orange}{Track dependencies:} What file depends on what other file? Can we go from raw data to results in one command? Where did this figure come from?
+	- Share files instead of copying files.
+	- Think in Batch mode (even if you develop in interactive mode)
+	- Plan for use of code on a fresh computer/empty directory.
+  
+4) Other ideas for after the presentation? 
+
+# Track dependencies: Know how outputs relate to inputs
+
+## Data Sharing Idea 2: Data Online
+
+Other data can be read directly from a website:
+
+## Other Data Sharing Ideas
+
+Small Text Files (.txt,.csv) can live on Github (currently this is all public)
+
+\medskip
+
+Eventually we will have some shared data space on an Amazon EC2 instance.
+
+## Think in Batch Mode
+
+\textcolor{orange}{Ideal:} Go from raw data to numbers, tables, figures in one command starting from a clean slate.
+
+For example, at the command line `R --vanilla --file=masterfile.R` does the whole analysis.
+
+# Conversation
+
+
