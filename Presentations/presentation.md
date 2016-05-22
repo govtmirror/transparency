@@ -77,25 +77,28 @@ UX (user experience) designers interview and observe users of products throughou
 
 ## What follows from valuing science? 
 
-
-(insert shot from slack)
-
 Why not Behavioral Claims Teams?  Why does science produce "insights"? 
 
 \medskip
 
-Principles of Science
 
 1) No one study produces certain knowledge (there is no certain knowledge). 
 2) No one person produces certain knowledge. Investigators must be comfortable with uncertainty and doubt.
+3) Other aspects of research design (for example, randomization, pre-registration, other aspects of learning-enhancing or credibility-enhancing transparency)
+
+
 
 \bigskip
+\only{<2->}{
 
 BTW, these ideas enable frequentist statistical inference: a $p$-value / confidence interval is a $p$-value/confidence interval, no more no less.
+}
 
 ## What follows from a person oriented approach to public policy?
 
-Stuff
+If we believe better guidance for public policy arises from behavioral science insights and methods combined with qualitative research from user experience teams, then how should behavioral insights team members act?
+
+I suggest: with humility and valuing community.
 
 # Concrete Actions for 2016
 
@@ -114,6 +117,9 @@ The fact that one has written open source code written in plain text does not me
 ## Action 3: Work in the Open Take advantage of the cloud
 
 My favorite way to work in the open right now is to use [GitHub](http://github.com) because it not only encourages a workflow in which people copy and improve and change others' code, but prevents old files from being clobbered with new files, tracks and threads discussions about topics, and enables online editing and easy website creation for quick sharing of documents and results.
+
+
+## Action 4: Plan for Heterogeneous Treatment Effects
 
 
 
@@ -135,12 +141,13 @@ The injunction to "work in the open" (and internally to "share not send") comes 
 
 This document is currently hosted on github at <http://github/sbstusa/transparency>. Comments welcome. 
 
+\appendix
 
 ## More inspiration from 18F
 
 [18F Design Principles](https://github.com/18F/myusa-ux/blob/master/research/memos/design-principles.md)
 
-[[18F Design Principles Definition](https://pages.18f.gov/design-principles-guide/define/)
+[18F Design Principles Definition](https://pages.18f.gov/design-principles-guide/define/)
 
 [18F Design and Production Process](https://pages.18f.gov/lean-product-design/)
 

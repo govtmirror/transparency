@@ -129,36 +129,28 @@ $if(graphics)$
 \setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
 $endif$
 
-% Comment these out if you don't want a slide with just the
-% part/section/subsection/subsubsection title:
-%% \AtBeginPart{
-%%   \let\insertpartnumber\relax
-%%     \let\partname\relax
-%%     \frame{\partpage}
-%% }
-
 \AtBeginSection{
-   \let\insertsectionnumber\relax
-      \let\sectionname\relax
-  {
-    \setbeamercolor{background canvas}{bg=blue}
-    %\setbeamercolor{background canvas}{bg=orange}
-    %\setbeamercolor{frametitle}{fg=white,bg=darkblue}
-    %\setbeamercolor{normal text}{fg=white,bg=darkblue}
-    %\setbeamercolor{structure}{fg=white}
-       \begin{frame}
-    %\frametitle{\sectionpage}
-    \tableofcontents[currentsection]
-      \end{frame}
-  }
+	\let\insertsectionnumber\relax
+		\let\sectionname\relax
+		{
+			\setbeamercolor{background canvas}{bg=blue}
+			%\setbeamercolor{background canvas}{bg=orange}
+			%\setbeamercolor{frametitle}{fg=white,bg=darkblue}
+			%\setbeamercolor{normal text}{fg=white,bg=darkblue}
+			%\setbeamercolor{structure}{fg=white}
+			\begin{frame}
+			%\frametitle{\sectionpage}
+			\tableofcontents[
+				currentsection, 
+				currentsubsection, 
+				%hideothersubsections, 
+				sectionstyle=show/shaded,
+				subsectionstyle=show/shaded] 
+					%\tableofcontents[currentsection,currentsubsection]
+					\end{frame}
+		}
 }
 
-%%% \AtBeginSubsection{
-%%%   \let\insertsubsectionnumber\relax
-%%%     \let\subsectionname\relax
-%%%     \frame{\subsectionpage}
-%%% }
-%%%
 $if(strikeout)$
 \usepackage[normalem]{ulem}
 % avoid problems with \sout in headers with hyperref:
@@ -202,29 +194,31 @@ $endif$
 
 % from http://tex.stackexchange.com/questions/257418/error-tightlist-converting-md-file-into-pdf-using-pandoc
 \providecommand{\tightlist}{%
-  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+	\setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
 
-%from http://tex.stackexchange.com/questions/22346/how-to-customize-titlepage-in-beamer
-\defbeamertemplate*{title page}{customized}[1][]
+	%from http://tex.stackexchange.com/questions/22346/how-to-customize-titlepage-in-beamer
+	\defbeamertemplate*{title page}{customized}[1][]
 {
-  \usebeamerfont{title}\inserttitle\par
-  %\usebeamerfont{subtitle}\usebeamercolor[fg]{subtitle}\insertsubtitle\par
-  \bigskip
-  \usebeamerfont{author}\insertauthor\par
-  \usebeamerfont{institute}\insertinstitute\par
-  \usebeamerfont{date}\insertdate\par
-  \usebeamercolor[fg]{titlegraphic}\inserttitlegraphic
+	\usebeamerfont{title}\inserttitle\par
+		%\usebeamerfont{subtitle}\usebeamercolor[fg]{subtitle}\insertsubtitle\par
+		\bigskip
+		\usebeamerfont{author}\insertauthor\par
+		\usebeamerfont{institute}\insertinstitute\par
+		\usebeamerfont{date}\insertdate\par
+		\usebeamercolor[fg]{titlegraphic}\inserttitlegraphic
 }
 
 \addtobeamertemplate{frametitle}{}{%
-\begin{tikzpicture}[remember picture,overlay]
-\node[anchor=south east,yshift=6pt,xshift=-3pt] at (current page.south east) {\includegraphics[height=0.5cm]{SBSTLightBulb}};
-\end{tikzpicture}}
+	\begin{tikzpicture}[remember picture,overlay]
+		\node[anchor=south east,yshift=6pt,xshift=-3pt] at (current page.south east) {\includegraphics[height=0.5cm]{SBSTLightBulb}};
+	\end{tikzpicture}
+}
 
 \addtobeamertemplate{title page}{}{%
-\begin{tikzpicture}[remember picture,overlay]
-\node[anchor=south east,yshift=5pt] at (current page.south east) {\includegraphics[height=2cm]{SBSTLogo}};
-\end{tikzpicture}}
+	\begin{tikzpicture}[remember picture,overlay]
+		\node[anchor=south east,yshift=5pt] at (current page.south east) {\includegraphics[height=2cm]{SBSTLogo}};
+	\end{tikzpicture}
+}
 
 \hypersetup{colorlinks=true,linkcolor=orange,urlcolor=orange}
 
