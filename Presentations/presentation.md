@@ -6,7 +6,7 @@ author: Jake Bowers
 institute: | 
      | Political Science and Statistics, University of Illinois @ Urbana-Champaign
      | Fellow, White House Social and Behavioral Sciences Team
-date: 'May 22, 2016'
+date: 'May 23, 2016'
 output:
   beamer_presentation:
     keep_tex: yes
@@ -52,9 +52,11 @@ output:
 BI teams translate (and extend) knowledge from (mostly) randomized experiment-based research into public policy.}
 }}
 
-## Design for person oriented government
+# Person oriented government by design (and science)
 
-UX (user experience) designers interview and observe users of products throughout the cycle of iterative production.
+## UX Design for person oriented government
+
+UX (user experience) design emphasizes a connection between designer and user.
 
 \medskip
 
@@ -66,6 +68,8 @@ UX (user experience) designers interview and observe users of products throughou
 
 [MyUSA](https://github.com/18F/myusa-ux/blob/master/images/front%20page.png)
 
+[MyUSA Signup](https://github.com/18F/myusa-ux/blob/master/images/Screen%20Shot%202014-12-19%20at%202.54.49%20PM.png)
+
 [UX Transcript](https://github.com/18F/myusa-ux/blob/master/research/usability/sprint22_research-data.md)
 
 [UX report on MyUSA](https://github.com/18F/myusa-ux/blob/master/research/usability/sprint33_small-business-results.md)
@@ -75,17 +79,23 @@ UX (user experience) designers interview and observe users of products throughou
 
 \includegraphics[width=.9\textwidth]{ScienceInTheHouse.png}
 
-## What follows from valuing science? 
+## Science for person oriented government
+
+
+What follows from valuing science? What do we add to design?
+
+\medskip
+
+Why not Behavioral Claims Teams?  Why does science produce "insights"? 
+
+## Science for person oriented government
 
 Why not Behavioral Claims Teams?  Why does science produce "insights"? 
 
 \medskip
 
-
-1) No one study produces certain knowledge (there is no certain knowledge). 
+1) No one study produces certain knowledge. Knowledge arises from a community.
 2) No one person produces certain knowledge. Investigators must be comfortable with uncertainty and doubt.
-3) Other aspects of research design (for example, randomization, pre-registration, other aspects of learning-enhancing or credibility-enhancing transparency)
-
 
 
 \bigskip
@@ -94,33 +104,55 @@ Why not Behavioral Claims Teams?  Why does science produce "insights"?
 BTW, these ideas enable frequentist statistical inference: a $p$-value / confidence interval is a $p$-value/confidence interval, no more no less.
 }
 
-## What follows from a person oriented approach to public policy?
+# What follows from practicing humility and valuing community?
 
-If we believe better guidance for public policy arises from behavioral science insights and methods combined with qualitative research from user experience teams, then how should behavioral insights team members act?
+## Practice Humility with Questions
 
-I suggest: with humility and valuing community.
+ - Act ethically
+ - Articulate more than one approach to any question
+ - Recognize the expertise of the bureaucrats
 
-# Concrete Actions for 2016
+## Practice Humility with Tests and Plans
 
-## Action 1: Use plain text
+ - Test all suggestions in as fair and clear manner as possible.
+ - Plan the test and analyses. Ensure stakeholders have a chance to approve the plan.
+ - Plan for heterogeneity of effects. Worry more about policies with average benefits having a few or rare negative effects.
 
-Writing memos, reports, or analyses in formats that are propriety and/or likely to change quickly and/or cost money to read raises barriers to collaboration across both space (with others) and time (with the team itself should it desire to use materials from past studies for the future.)^[This poses a challenge for groups where the government dictates the tools.] This essay, for example, is written in [markdown](https://daringfireball.net/projects/markdown/).^[Specifically, it uses [pandoc](http://pandoc.org/) flavored markdown.]
+Remember the power of randomization for clear and fair testing.
 
-## Action 2: Use open-source and multi-platform tools
+## Practice Community with Openness
 
-Plain text code written for interpretation by an expensive and single platform computing language may be readable in the future, but will be of little use to those who desire to help or learn from the team. This suggests that teams only use tools like R or python or other open-source analysis and/or markup languages that are available on free operating systems and across platforms.
+The community includes the public, investigators inside and outside of government, and civil servants.
 
-## Action 2a: Assume others will want to reproduce the work.
+ - Build Trust by working in the open and inviting collaboration.
+ - Report all results to enhance learning and build trust.
+ - Work in the open whenever possible.
 
-The fact that one has written open source code written in plain text does not mean that others can effectively learn from or copy and improve on one's work. This means that all analyses should be written as if someone else, who is not a part of the team's social network, ought to be able to reproduce the analyses of the team (to the extent possible given data sharing limitations). Tools here include [Rmarkdown](http://rmarkdown.rstudio.com/) and processes for tracking dependencies among files like the [make](http://robjhyndman.com/hyndsight/makefiles/) system and [R packages](http://r-pkgs.had.co.nz/).^[Insert versions for python.]
+Working in the open involves sharing as much of our work and workflow as possible with as many people as possible. 
 
-## Action 3: Work in the Open Take advantage of the cloud
+
+# Concrete Actions and Tools for 2016 
+
+## Use plain text
+
+Writing memos, reports, or analyses in formats that are propriety and/or likely to change quickly and/or cost money to read raises barriers to collaboration across both space (with others) and time (with the team itself should it desire to use materials from past studies for the future.)
+
+## Use open-source and multi-platform tools
+
+Plain text code written for interpretation by an expensive and single platform computing language may be readable in the future, but will be of little use to those who desire to help or learn from the team.
+
+## Assume others will want to reproduce the work.
+
+This means that all analyses should be written as if someone else, who is not a part of the team's social network, ought to be able to reproduce the analyses of the team (to the extent possible given data sharing limitations).
+
+##  Work in the Open and Take advantage of the cloud
 
 My favorite way to work in the open right now is to use [GitHub](http://github.com) because it not only encourages a workflow in which people copy and improve and change others' code, but prevents old files from being clobbered with new files, tracks and threads discussions about topics, and enables online editing and easy website creation for quick sharing of documents and results.
 
 
-## Action 4: Plan for Heterogeneous Treatment Effects
+## Finally
 
+Most of all, act as if you are on a team that extends beyond the office, into the future, across national boundaries. Assume that team will support and add surprising value to your work (once in a while). Act to enable that team to work with you.
 
 
 # End Matter
